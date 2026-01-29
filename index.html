@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Chiang - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">KC</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Kevin Chiang</span>
+                </h1>
+                <p class="hero-subtitle">Computer Engineering Technology Graduate</p>
+                <p class="hero-description">
+                    Building embedded systems and bridging hardware–software integration 
+                    to deliver impactful solutions
+                </p>
+                <div class="hero-buttons">
+                    <a href="#experience" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card">
+                    <div class="code-snippet">
+                        <div class="code-line"><span class="code-keyword">const</span> <span class="code-var">engineer</span> = {</div>
+                        <div class="code-line indent">focus: <span class="code-string">'embedded systems'</span>,</div>
+                        <div class="code-line indent">passion: <span class="code-string">'product execution'</span>,</div>
+                        <div class="code-line indent">impact: <span class="code-string">'measurable improvements'</span></div>
+                        <div class="code-line">};</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Professional Summary</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead-text">
+                        Computer Engineering Technology graduate from Purdue University with hands-on experience 
+                        supporting the development and launch of embedded and industrial computing solutions.
+                    </p>
+                    <p>
+                        Proven ability to work cross-functionally with engineering, operations, and stakeholders 
+                        to translate technical requirements into customer-facing features and deliver measurable 
+                        improvements in reliability, performance, and usability.
+                    </p>
+                    <p>
+                        Strong foundation in embedded systems and hardware–software integration, paired with clear 
+                        communication, structured problem-solving, and a growing focus on product execution and 
+                        lifecycle management.
+                    </p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">⚙️</div>
+                        <h3>Embedded Systems</h3>
+                        <p>Hardware-software integration & real-time monitoring</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">💻</div>
+                        <h3>Software Development</h3>
+                        <p>C++, multithreading, GUI development</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🚀</div>
+                        <h3>Product Management</h3>
+                        <p>Cross-functional collaboration & requirements translation</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">🔧</div>
+                        <h3>Problem Solving</h3>
+                        <p>Structured debugging & system optimization</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <!-- Experience 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <h3 class="experience-title">Software Engineer Intern</h3>
+                            <span class="experience-company">Arestech Solution</span>
+                            <span class="experience-date">June 2023 – August 2023</span>
+                        </div>
+                        <div class="experience-description">
+                            <p>
+                                Developed C++ real-time monitoring application interfacing with hardware DLLs to retrieve 
+                                CPU temperature, fan speed, and voltage data on custom embedded panel PCs.
+                            </p>
+                            <ul class="achievements">
+                                <li>
+                                    <span class="achievement-icon">✨</span>
+                                    Implemented multithreaded architecture eliminating UI freeze events during updates 
+                                    <strong>(15/hour to zero)</strong> and improved real-time data acquisition efficiency 
+                                    <strong>1,000x (from 1Hz to 1kHz)</strong>
+                                </li>
+                                <li>
+                                    <span class="achievement-icon">⚡</span>
+                                    Programmed automated power control system with scheduled on/off times, deployed to 
+                                    <strong>10+ customers</strong>, and reduced unnecessary runtime <strong>20%</strong> 
+                                    based on usage patterns
+                                </li>
+                                <li>
+                                    <span class="achievement-icon">🎯</span>
+                                    Created unified Windows32 GUI dashboard consolidating three separate monitoring tools 
+                                    into a single interface, decreasing hardware anomalies by <strong>10%</strong> per customer feedback
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-header">
+                            <h3 class="experience-title">Project Manager</h3>
+                            <span class="experience-company">Custom E-Commerce & Order Automation Platform</span>
+                            <span class="experience-date">August 2024 – May 2025</span>
+                        </div>
+                        <div class="experience-description">
+                            <p>
+                                Collaborated cross-functionally with industrial engineering and supply chain teammates to 
+                                design and deliver a custom e-commerce solution for a local Indiana-based racing suit manufacturer.
+                            </p>
+                            <ul class="achievements">
+                                <li>
+                                    <span class="achievement-icon">🔗</span>
+                                    Led technical integration of Shopify with custom scripts and backend logic to support 
+                                    complex product customization, order tracking, and operational data collection
+                                </li>
+                                <li>
+                                    <span class="achievement-icon">📋</span>
+                                    Translated business and operational requirements from non-technical stakeholders into 
+                                    clear technical specifications and implementation plans
+                                </li>
+                                <li>
+                                    <span class="achievement-icon">💬</span>
+                                    Communicated technical tradeoffs and system behavior to company owners and teammates, 
+                                    ensuring alignment between customer needs, engineering constraints, and supply chain workflows
+                                </li>
+                                <li>
+                                    <span class="achievement-icon">📈</span>
+                                    Improved order accuracy, data visibility, and workflow efficiency by enabling structured 
+                                    tracking of custom orders and customer inputs
+                                </li>
+                                <li>
+                                    <span class="achievement-icon">✅</span>
+                                    Delivered production-ready solution adopted by the client, providing real-world experience 
+                                    bridging product requirements, technical execution, and stakeholder communication
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-content">
+                <div class="education-card">
+                    <div class="education-header">
+                        <h3>Bachelor of Science, Computer Engineering Technology</h3>
+                        <span class="education-school">Purdue University, Polytechnic Institute</span>
+                        <span class="education-date">May 2025</span>
+                    </div>
+                    <div class="education-details">
+                        <h4>Relevant Coursework</h4>
+                        <div class="coursework-tags">
+                            <span class="tag">Advanced Embedded Digital Systems</span>
+                            <span class="tag">Advanced DSP</span>
+                            <span class="tag">Electronics Prototype Dev and Construction</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-header">
+                        <h3>Teaching Assistant</h3>
+                        <span class="education-school">Electronic & Computer Engineering Technology</span>
+                        <span class="education-date">January 2022 – May 2022</span>
+                    </div>
+                    <div class="education-details">
+                        <ul class="achievements">
+                            <li>
+                                <span class="achievement-icon">👥</span>
+                                Led weekly lab sessions for <strong>100 students</strong> to implement power interfaces, 
+                                sensor integration, actuator control and help build full closed loop systems to improve 
+                                scores by <strong>1 grade point</strong>
+                            </li>
+                            <li>
+                                <span class="achievement-icon">🔍</span>
+                                Provided one-on-one debugging support using oscilloscopes and multimeters to diagnose 
+                                circuit and firmware issues, helping students identify problems <strong>50% faster</strong> 
+                                through structured troubleshooting
+                            </li>
+                            <li>
+                                <span class="achievement-icon">📚</span>
+                                Worked closely with students to define control strategies, correct applied measurement 
+                                techniques, troubleshoot data acquisition and control systems, and improve calculations 
+                                for key circuit parameters
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-description">
+                I'm always open to discussing new opportunities, projects, or just connecting with fellow engineers.
+            </p>
+            <div class="contact-buttons">
+                <a href="mailto:your.email@example.com" class="btn btn-primary">Email Me</a>
+                <a href="https://linkedin.com/in/yourprofile" class="btn btn-secondary" target="_blank">LinkedIn</a>
+                <a href="https://github.com/yourusername" class="btn btn-secondary" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Kevin Chiang. Built with passion for embedded systems and product excellence.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
